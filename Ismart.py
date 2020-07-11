@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To lovehacker
+#The Credit For This Code Goes To Arbab Memon
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
@@ -20,25 +20,26 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 
 ##### LOGO #####
 logo = """
-\033[1;96m██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗
-\033[1;96m██╔══██╗██║░░░░░██╔══██╗██╔══██╗██║░██╔╝
-\033[1;96m██████╦╝██║░░░░░███████║██║░░╚═╝█████═╝░
-\033[1;96m██╔══██╗██║░░░░░██╔══██║██║░░██╗██╔═██╗░
-\033[1;96m██████╦╝███████╗██║░░██║╚█████╔╝██║░╚██╗
-\033[1;96m╚═════╝░╚══════╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
-\033[1;96m███╗░░░███╗░█████╗░███████╗██╗░█████╗░
-\033[1;96m████╗░████║██╔══██╗██╔════╝██║██╔══██╗
-\033[1;96m██╔████╔██║███████║█████╗░░██║███████║
-\033[1;96m██║╚██╔╝██║██╔══██║██╔══╝░░██║██╔══██║
-\033[1;96m██║░╚═╝░██║██║░░██║██║░░░░░██║██║░░██║
-\033[1;96m╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
-\033[1;96m«-----------------\033[1;91mBlackMafia\033[1;96m-----------------»
-\033[1;91m  ┈┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈┈┈  BlackMafia
-\033[1;91m  ┈┈┈▇▇▇▇▇▇┈┈▇▇▇▇▇▇┈┈▇▇▇▇▇▇┈┈┈┈  lovehacker
+\033[1;97m██╗░██████╗███╗░░░███╗░█████╗░██████╗░████████╗
+\033[1;97m██║██╔════╝████╗░████║██╔══██╗██╔══██╗╚══██╔══╝
+\033[1;98m██║╚█████╗░██╔████╔██║███████║██████╔╝░░░██║░░░
+\033[1;98m██║░╚═══██╗██║╚██╔╝██║██╔══██║██╔══██╗░░░██║░░░
+\033[1;96m██║██████╔╝██║░╚═╝░██║██║░░██║██║░░██║░░░██║░░░
+\033[1;96m╚═╝╚═════╝░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░
+
+\033[1;95m░█████╗░██████╗░██████╗░░█████╗░██████╗░
+\033[1;95m██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+\033[1;94m███████║██████╔╝██████╦╝███████║██████╦╝
+\033[1;94m██╔══██║██╔══██╗██╔══██╗██╔══██║██╔══██╗
+\033[1;39m██║░░██║██║░░██║██████╦╝██║░░██║██████╦╝
+\033[1;39m╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
+\033[1;96m«-----------------\033[1;91mIsmartArbab\033[1;96m-----------------»
+\033[1;91m  ┈┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈◢▇◣◢▇◣┈┈┈┈  Ismart Arbab
+\033[1;91m  ┈┈┈▇▇▇▇▇▇┈┈▇▇▇▇▇▇┈┈▇▇▇▇▇▇┈┈┈┈  Cyber Hacker
 \033[1;91m  ┈┈┈◥▇▇▇▇◤┈┈◥▇▇▇▇◤┈┈◥▇▇▇▇◤┈┈┈┈ 
 \033[1;91m  ┈┈┈┈◥▇▇◤┈┈┈┈◥▇▇◤┈┈┈┈◥▇▇◤┈┈┈┈┈   WhatsApp
-\033[1;91m  ┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈┈ 03094161457
-\033[1;96m«-----------------\033[1;91mBlackMafia\033[1;96m-----------------»"""   
+\033[1;91m  ┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈◥◤┈┈┈-̴̧̬͖͇̟̟̼̱͙̠͉̟̹̘̖̥͈͖͚̯͗͑͌̃̿͗̈̿̿̏͗̑̀̀͘┈┈┈ 03003023263
+\033[1;96m«-----------------\033[1;91mIsmartArbab\033[1;96m-----------------»"""   
 R = '\033[1;91m'
 G = '\033[1;92m'                                
 Y = '\033[1;93m'
@@ -72,33 +73,33 @@ def menu():
     time.sleep(0.05)
     print("\033[1;41m2\033[1;37m       Stop Process Press CTRL + z        \033[1;0m")
     time.sleep(0.05)
-    print("\033[1;41m3\033[1;37m         Type python2 Cloning.py          \033[1;0m")
+    print("\033[1;41m3\033[1;37m         Type python2 Arbab.py          \033[1;0m")
     time.sleep(0.05)
-    print("\033[1;96m[1]  Install With Out Fb Id  Tool      ●")
+    print("\033[1;96m[1]  Without Loging Id Hacking      ●")
     time.sleep(0.05)
-    print("\033[1;96m[2]  Install Facebook login  Tool      ●")
+    print("\033[1;96m[2]  Loging Facebook Id Hacking     ●")
     time.sleep(0.05)
-    print("\033[1;96m[3]  Install SpiderMan       Tool      ●")
+    print("\033[1;96m[3]  Commond No1 Hacker For Fb      ●")
     time.sleep(0.05)
-    print("\033[1;96m[4]  Install Kalilinux       Tool      ●")
+    print("\033[1;96m[4]  Commond No2 Cyber Hacking      ●")
     time.sleep(0.05)
-    print("\033[1;96m[5]  Install BlackHat        Tool      ●")
+    print("\033[1;96m[5]  Commond No3 Speedi Hacking     ●")
     time.sleep(0.05)
-    print("\033[1;96m[6]  Install RedMoonNew      Tool      ●")
+    print("\033[1;96m[6]  Commond No4 Speedy Hacking     ●")
     time.sleep(0.05)
-    print("\033[1;96m[7]  Install love3Hack3r     Tool      ●")
+    print("\033[1;96m[7]  Commond No5 Shahzada Fadu      ●")
     time.sleep(0.05)
-    print("\033[1;96m[8]  Install Cobra           Tool      ●")
+    print("\033[1;96m[8]  Commond No6 Don1 Facebook.     ●")
     time.sleep(0.05)
-    print("\033[1;96m[9]  Install Dragon          Tool      ●")
+    print("\033[1;96m[9]  Commond No7 GangeLeader Jhakas ●")
     time.sleep(0.05)
-    print("\033[1;96m[10] Install NetHunting      Tool      ●")
+    print("\033[1;96m[10] Commond No8 Iran Attack.       ●")
     time.sleep(0.05)
-    print("\033[1;96m[11] Install Payload         Tool      ●")
+    print("\033[1;96m[11] Commond No9 Bangladesh Attack  ●")
     time.sleep(0.05)
-    print("\033[1;96m[12] Install Paython2,3      Tool      ●")
+    print("\033[1;96m[12] Commond 10 Baziger Fb Attack   ●")
     time.sleep(0.05)
-    print("\033[1;96m[13] Install Fb Report       Tool      ●")
+    print("\033[1;96m[13] Commond No11 Dumdar fb Attack  ●")
     time.sleep(0.05)
     print("\033[1;91m[0]  EXIT")
     time.sleep(0.05)
