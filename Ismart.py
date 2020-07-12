@@ -115,7 +115,7 @@ def mafia():
 		os.system("ls")
                 os.system("cd World")
 		os.system("cd Cloningx")
-                love("\033[1;93mTool User Name\033[1;92m Black\033[1;93m Password \033[1;92mMafia")
+                love("\033[1;93mTool User Name\033[1;92m Ismart\033[1;93m Password \033[1;92mArbab")
                 time.sleep(6)
                 os.system("python2 Cloningx.py")
 	elif black =="2":
@@ -126,7 +126,7 @@ def mafia():
 		os.system("cd AsifJaved")
                 love("\033[1;93mTool User Name\033[1;92m Black\033[1;93m Password \033[1;92mMafia")
                 time.sleep(6)
-                os.system("python2 AsifJaved.py")
+                os.system("python2 Arbab.py")
 	elif black =="3":
 	        clear()
 	        print(logo)
