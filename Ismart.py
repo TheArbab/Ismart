@@ -113,7 +113,7 @@ def mafia():
 		clear()
 		print(logo)
 		os.system("ls")
-                os.system("cd World")
+                os.system("cd Ismart")
 		os.system("cd Cloningx")
                 love("\033[1;93mTool User Name\033[1;92m Ismart\033[1;93m Password \033[1;92mArbab")
                 time.sleep(6)
